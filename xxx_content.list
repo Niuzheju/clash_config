@@ -1,0 +1,68 @@
+# ======= 草榴社区定制分流（主站+图片+视频） =======
+# 核心主站与发布页
+DOMAIN-SUFFIX,t66y.com
+DOMAIN-SUFFIX,cl.ly
+DOMAIN-SUFFIX,caoliu.com
+
+# 关键字捕获（任何网址只要包含这些词的图片/视频一律走代理）
+DOMAIN-KEYWORD,t66y
+DOMAIN-KEYWORD,caoliu
+
+# 关联高频成人图床
+DOMAIN-SUFFIX,imgbox.com
+DOMAIN-SUFFIX,pixhost.to
+DOMAIN-SUFFIX,imghub.ru
+DOMAIN-SUFFIX,postimages.org
+DOMAIN-SUFFIX,imagebam.com
+
+# 关联常见外挂视频 CDN
+DOMAIN-SUFFIX,daddylive.mp
+DOMAIN-SUFFIX,vidoza.net
+DOMAIN-SUFFIX,streamtape.com
+DOMAIN-SUFFIX,voe.sx
+DOMAIN-SUFFIX,doodstream.com
+
+# ======= 1. 全球主流成人综合/流媒体站点 =======
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,xvvideos.com
+DOMAIN-SUFFIX,xnxx.com
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,xhamster.com
+DOMAIN-SUFFIX,spankbang.com
+DOMAIN-SUFFIX,txxx.com
+DOMAIN-SUFFIX,youporn.com
+
+# ======= 2. 亚洲/中文主流站点（Jable, MissAV, 麻豆等） =======
+DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,missav.ws
+DOMAIN-SUFFIX,supjav.com
+DOMAIN-SUFFIX,javmost.com
+DOMAIN-SUFFIX,javbus.com
+DOMAIN-SUFFIX,madou.club
+
+# ======= 3. 动漫/本子/二次元成人站点 =======
+DOMAIN-SUFFIX,e-hentai.org
+DOMAIN-SUFFIX,exhentai.org
+DOMAIN-SUFFIX,nhentai.net
+DOMAIN-SUFFIX,wnacg.com
+DOMAIN-SUFFIX,hanime1.me
+DOMAIN-SUFFIX,jmcomic.me
+DOMAIN-SUFFIX,18comic.vip
+
+# ======= 4. 常见成人视频托管 CDN & 播放源 =======
+# （绝大多数论坛内嵌视频、外挂播放器都在这几个服务器上）
+DOMAIN-SUFFIX,dood.wf
+DOMAIN-SUFFIX,dood.pm
+DOMAIN-SUFFIX,fembed.com
+DOMAIN-SUFFIX,highload.to
+DOMAIN-SUFFIX,mixdrop.co
+
+# ======= 5. 强力关键字捕获 =======
+# （只要网址里包含这些词，不管域名怎么变都强制走代理）
+DOMAIN-KEYWORD,pornhub
+DOMAIN-KEYWORD,javbus
+DOMAIN-KEYWORD,missav
+DOMAIN-KEYWORD,jable
+DOMAIN-KEYWORD,nhentai
