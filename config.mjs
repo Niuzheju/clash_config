@@ -1,7 +1,7 @@
 export function main(config) {
     // ==================== 可配置的代理组变量（在这里统一修改） ====================
-    const PROXY = "PROXY";           // 全局代理组
-    const AI_GROUP = "PROXY";            // AI 服务专用组
+    const PROXY = "SSRDOG";           // 全局代理组
+    const AI_GROUP = "SSRDOG";            // AI 服务专用组
     const DIRECT = "DIRECT";
     const REJECT = "REJECT";
 
@@ -62,15 +62,8 @@ export function main(config) {
 
     const bypassApps = [
         "thunder.exe",
-        "WeChat",           // 微信
-        "WeChat.exe",
-        "QQ",               // QQ
-        "QQ.exe",
-        "TIM.exe",
-        "DingTalk",         // 钉钉
-        "DingTalk.exe",
-        "wxwork",           // 企业微信
-        "wxwork.exe"
+        "WeChatAppEx.exe",
+        "Weixin.exe"
     ];
 
     const customRules = [];
